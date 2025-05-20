@@ -1,0 +1,37 @@
+/* Version 1.010; Build 20180227 */
+
+@font-face {
+	font-family: 'Yeolrin Gothic';
+	font-weight: 300;
+	src: url('./YeolrinGothic-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Yeolrin Gothic';
+	font-weight: 500;
+	src: url('./YeolrinGothic-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Yeolrin Gothic';
+	font-weight: 700;
+	src: url('./YeolrinGothic-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Yeolrin Myeongjo';
+	font-weight: 300;
+	src: url('./YeolrinMyeongjo-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Yeolrin Myeongjo';
+	font-weight: 500;
+	src: url('./YeolrinMyeongjo-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Yeolrin Myeongjo';
+	font-weight: 700;
+	src: url('./YeolrinMyeongjo-Bold.woff2') format('woff2');
+}
