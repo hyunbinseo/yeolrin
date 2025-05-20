@@ -1,9 +1,10 @@
 {
 	"name": "yeolrin",
 	"description": "열린명조, 열린고딕 - 서울산업진흥원(현 서울경제진흥원)",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"type": "module",
 	"scripts": {
+		"version": "git add -A",
 		"postversion": "git push && git push --tags"
 	},
 	"devDependencies": {
