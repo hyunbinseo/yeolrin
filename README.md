@@ -45,7 +45,7 @@
   <summary>GitHub 패키지 설치</summary>
 
 ```shell
-npm i hyunbinseo/yeolrin@1
+pnpm i github:hyunbinseo/yeolrin
 ```
 
 CSS 파일을 불러옵니다.
