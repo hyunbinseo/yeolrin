@@ -28,10 +28,20 @@
 | 신청번호 | 국민신문고 1AA-2505-0517144                         |
 | 처리기관 | 서울특별시 (투자출연기관 서울경제진흥원 윤리경영실) |
 
-## 사용 방법
+## 직접 다운로드
+
+1. [최신 릴리스]에서 ZIP 파일을 다운로드합니다.
+2. 압축파일 내 TTF, WOFF2 파일을 활용합니다.
+
+[최신 릴리스]: https://github.com/hyunbinseo/yeolrin/releases/latest
+
+## CDN 웹 폰트 사용
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/hyunbinseo/yeolrin@1/index.css" rel="stylesheet" />
+<link
+  href="https://cdn.jsdelivr.net/gh/hyunbinseo/yeolrin@1/index.css"
+  rel="stylesheet"
+/>
 
 <style>
   body {
@@ -41,8 +51,9 @@
 </style>
 ```
 
-<details>
-  <summary>GitHub 패키지 설치</summary>
+## Node.js 등의 환경
+
+GitHub 저장소에서 패키지를 설치합니다.
 
 ```shell
 pnpm i github:hyunbinseo/yeolrin
@@ -70,5 +81,3 @@ body {
   font-family: 'Yeolrin Myeongjo', serif;
 }
 ```
-
-</details>

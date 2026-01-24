@@ -8,7 +8,7 @@
 		"postversion": "git push && git push --tags"
 	},
 	"devDependencies": {
-		"@types/node": "^22.15.19",
+		"@types/node": "^24.10.9",
 		"ttf2woff2": "^6.0.1"
 	},
 	"main": "index.css",
@@ -19,5 +19,5 @@
 		"type": "git",
 		"url": "git+https://github.com/hyunbinseo/yeolrin.git"
 	},
-	"packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
+	"packageManager": "pnpm@10.28.1+sha512.7d7dbbca9e99447b7c3bf7a73286afaaf6be99251eb9498baefa7d406892f67b879adb3a1d7e687fc4ccc1a388c7175fbaae567a26ab44d1067b54fcb0d6a316"
 }
