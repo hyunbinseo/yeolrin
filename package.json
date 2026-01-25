@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "^24.10.9",
-		"ttf2woff2": "^6.0.1"
+		"ttf2woff2": "^8.0.0"
 	},
 	"main": "index.css",
 	"files": [
