@@ -1,2 +1,2 @@
-onlyBuiltDependencies:
-  - ttf2woff2
+allowBuilds:
+  ttf2woff2: true
