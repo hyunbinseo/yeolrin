@@ -1,29 +1,32 @@
 {
 	"name": "yeolrin",
-	"description": "열린명조, 열린고딕 - 서울산업진흥원(현 서울경제진흥원)",
 	"version": "1.0.0",
-	"type": "module",
-	"scripts": {
-		"version": "git add -A",
-		"postversion": "git push && git push --tags"
+	"description": "열린명조, 열린고딕 - 서울산업진흥원(현 서울경제진흥원)",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hyunbinseo/yeolrin.git"
 	},
-	"devDependencies": {
-		"@types/node": "^24.12.4",
-		"ttf2woff2": "^8.0.1"
-	},
-	"main": "index.css",
-	"types": "index.d.ts",
-	"sideEffects": [
-		"*.css"
-	],
 	"files": [
 		"*.woff2",
 		"index.css",
 		"index.d.ts"
 	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/hyunbinseo/yeolrin.git"
+	"type": "module",
+	"sideEffects": [
+		"*.css"
+	],
+	"main": "index.css",
+	"types": "index.d.ts",
+	"scripts": {
+		"version": "git add -A",
+		"postversion": "git push && git push --tags",
+		"fmt": "oxfmt",
+		"fmt:check": "oxfmt --check"
+	},
+	"devDependencies": {
+		"@types/node": "^24.12.4",
+		"oxfmt": "^0.52.0",
+		"ttf2woff2": "^8.0.1"
 	},
 	"packageManager": "pnpm@11.5.0+sha512.dbfcc4f81cf48597afd4bc391ffdf12c11f1a9fb83a395bfa6b0a2d9cc2fd8ffebafdb1ccbd529632153f793904c2615b7f09fe1a345473fd1c35845172a8eb1"
 }

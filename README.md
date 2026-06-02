@@ -38,16 +38,13 @@
 ## CDN 웹 폰트 사용
 
 ```html
-<link
-  href="https://cdn.jsdelivr.net/gh/hyunbinseo/yeolrin@1/index.css"
-  rel="stylesheet"
-/>
+<link href="https://cdn.jsdelivr.net/gh/hyunbinseo/yeolrin@1/index.css" rel="stylesheet" />
 
 <style>
-  body {
-    font-family: 'Yeolrin Gothic', sans-serif;
-    font-family: 'Yeolrin Myeongjo', serif;
-  }
+	body {
+		font-family: 'Yeolrin Gothic', sans-serif;
+		font-family: 'Yeolrin Myeongjo', serif;
+	}
 </style>
 ```
 
@@ -77,7 +74,7 @@ import 'yeolrin'; // Vite JavaScript, TypeScript
 
 ```css
 body {
-  font-family: 'Yeolrin Gothic', sans-serif;
-  font-family: 'Yeolrin Myeongjo', serif;
+	font-family: 'Yeolrin Gothic', sans-serif;
+	font-family: 'Yeolrin Myeongjo', serif;
 }
 ```
